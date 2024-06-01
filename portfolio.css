@@ -1,0 +1,187 @@
+body{
+    background-color: #2D2926FF;
+
+}
+#navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+#list{
+    list-style-type: none;
+    float: right;
+    margin-right: 100px;
+    margin-top: 28px;
+}
+li{
+    
+    display: inline;
+    font-family: sans-serif;
+    font-size:large;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#home_container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+#intro{
+    color: white;
+    flex: 2;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+}
+#myphoto{
+    background-color: chocolate;
+    flex: 1;
+}
+.titles{
+    color: black;
+    font-family: sans-serif;
+    padding: 1px;
+}
+.objective{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+#education_column{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#education_box1{
+    cursor: pointer;
+    background-color:rosybrown;
+    margin: 40px;
+    height: 400px;
+    width: auto;
+    flex:1;
+    border-radius: 10px;
+}
+#education_box2{
+    cursor: pointer;
+    background-color:blanchedalmond;
+    margin: 40px;
+    height: 400px;
+    width: auto;
+    flex:1;
+    border-radius: 10px;
+}
+#education_box3{
+    cursor: pointer;
+    background-color:darkgray;
+    margin: 40px;
+    height: 400px;
+    width: auto;
+    flex: 1;
+    border-radius: 10px;
+}
+.education{
+    color: white;
+    margin-top: 150px;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+#skill_1column{
+    display: flex;
+    margin-left: 150px;
+}
+.skills{
+    flex: 1;
+}
+.skill_2column{
+    display: flex;
+    margin-left: 150px;
+}
+
+#project_column{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px ;
+}
+#project1{
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px;
+    height: 400px;
+    width: auto;
+    flex: 1;
+}
+#project2{
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px;
+    height: 400px;
+    width: auto;
+    flex: 1;
+}
+#project3{
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px;
+    height: 400px;
+    width: auto;
+    flex: 1;
+}
+.contact_para{
+    font-size: large;
+    font-family: sans-serif;
+}
+#contact_info{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 10px;
+}
+.contact_info1{
+    flex: 1;
+    padding: 50px;
+    border-radius: 10px;
+}
+#navbar ul li a {
+    color: white;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.text001
+{
+    text-decoration: none;
+    color: white;
+}
+
+#list li:hover{
+background-color: #0ee9de;
+color:#111111;
+padding: 13px;
+border-radius: 8px;
+}
+
+  .none
+  {
+    text-decoration:dotted;
+  }
+
+
+#contact_info
+{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.logo
+{
+    margin-top: 16px;
+}
